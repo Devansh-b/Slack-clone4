@@ -12,6 +12,7 @@ a{
     color: white;
     
 }
+
 .btn{
     background-color: #541554;
     border-radius: 6px;
@@ -53,7 +54,14 @@ header{
     background-color: #541554;
     box-sizing: border-box;
     padding-bottom: 7%;
+    width: 100%;
     
+}
+.h4x{
+    display: inline-block;
+}
+.hxj{
+   margin-left: 10rem;
 }
 .list :nth-child(1){
     width: 35px;
@@ -66,6 +74,9 @@ header{
     margin-right: 2rem;
     font-weight: 600;
 }
+.main1{
+    width: 100%;
+}
 .menu{
     display: flex;
     list-style-type: none;
@@ -74,6 +85,8 @@ header{
     margin-left: 10rem;
 
 }
+
+
 .list,menu{
     font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-seri
 }
@@ -92,11 +105,12 @@ header{
 }
 
 .video{
-    max-width: 700px;
+    
     max-height: 400px;
     height: auto;
     box-sizing: inherit;
     margin-top: 2rem;
+    float: right;
 }
 
 
@@ -439,7 +453,7 @@ p{
     line-height: 1.1875;
     letter-spacing: -.8px;
     margin-top: 0;
-    margin-left: 17rem;
+    margin: 0 17%;
 }
 .h2d{
     margin-bottom: 1.7rem;
@@ -485,6 +499,102 @@ hr{
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1456px  ) {
+    .video{
+       max-width: 600px;
+    }
+    .ht24{
+        font-size: 3rem;
+    }
+    .hxj{
+        margin-left: 10rem;
+     }
+}
+@media screen and (max-width:1384px  ) {
+    .video{
+       max-width: 500px;
+       
+
+    }
+    .list:nth-child(7){
+        margin-left: 3%;
+    }
+    .ht24{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width:1260px  ) {
+    .main1{
+        display: flex;
+    }
+    .video{
+       max-width: 500px;
+       
+
+    }
+    .list:nth-child(7){
+        margin-left: 3%;
+    }
+    .ht24{
+        font-size: 2rem;
+    }
+   .menu{
+    margin-left: 1%;
+   }
+   .h4x{
+    width: 500px;
+   }
+
+}
+
+@media screen and (min-width:1025px  ) and (max-width:1110px)
+{
+    body{
+        
+    }
+    #ht23{margin-left: 1rem !important;}
+    .hxj{
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width:375px  ) and (max-width:1108px){
+    main{
+        justify-content: left;
+        width: 1000px;
+    }
+    .section1{
+        width: 100%;
+        display: grid;
+    }
+    .menu{
+        display: none;
+    }
+    .main1{
+        display: grid;
+    }
+    .h4x{
+        display: grid;
+    }
+    .video{
+        float: left;
+    }
+}
+
 
 
 
